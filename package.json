@@ -9,6 +9,8 @@
     "lint": "eslint",
     "format": "npx pretty-quick",
     "format:all": "npx prettier -w .",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "prepare": "husky"
   },
   "dependencies": {
@@ -21,16 +23,24 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
     "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
     "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
     "tailwindcss": "^4",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
